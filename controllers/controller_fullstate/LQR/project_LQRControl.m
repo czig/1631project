@@ -90,7 +90,7 @@ dpos_wghts        = 0.05/3; %weights for each of the three velocities of positio
 
 dorient_pqr_wghts = 0.05/3; %weights for each of the three angular rates of orientations(attitude)
 
-rho = 15;
+rho = 20;
 
 %% Normalize and pack weights and limits on state costs
 weights = [pos_x_wght pos_y_wght pos_z_wght yaw_wght pitch_wght roll_wght dpos_wghts dpos_wghts dpos_wghts dorient_pqr_wghts dorient_pqr_wghts dorient_pqr_wghts];
